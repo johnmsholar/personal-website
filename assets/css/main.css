@@ -2578,17 +2578,16 @@
 
 /* One */
 
-	#one:before {
+	#signatureHeader:before {
 		background-image: url("../../images/banner.jpg");
-		background-position: top right;
+		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 50%;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 12em; /* Change to 15em to have a banner */
 		width: 100%;
 	}
-
 /* Footer */
 
 	#footer {
